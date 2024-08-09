@@ -50,3 +50,6 @@ print(c)
 
 d = 1 == 2 or 2 < 3
 print(d)
+
+e = 1 < 2 < 3
+print(e)
