@@ -22,3 +22,18 @@ dict = {'key1': 1, 'key2': 2, 'key3': 3}
 
 # print(dict.values())
 # o/p => dict_values([1, 2, 3])
+
+
+dict = {'key': 'value'}
+
+d2 = {
+    'k1':
+    [
+        {'nest_key':
+            ['this is deep', ['hello']]
+         }
+    ]
+}
+
+
+# print(d2['k1'][0]['nest_key'][1][0])
